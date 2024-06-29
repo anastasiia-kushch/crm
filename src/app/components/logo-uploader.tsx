@@ -19,13 +19,13 @@ export default function LogoUploader({
       {label && <p className="text-base color-gray-900">{label}</p>}
       <label
         htmlFor={id}
-        className="flex flex-col items-center justify-center w-40 h-40 bg-white border border-slate-900 border-dashed rounded-full"
+        className="flex flex-col items-center justify-center w-40 h-40 bg-white border border-slate-900 border-dashed rounded-full cursor-pointer"
       >
         <Image
           className="mb-1"
           width={48}
           height={48}
-          src="/public/icons/upload.svg"
+          src="/icons/upload.svg"
           alt="upload"
         />
         {placeholder && (

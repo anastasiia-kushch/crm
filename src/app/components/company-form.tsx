@@ -1,7 +1,8 @@
 'use client';
 
-import { Form, Formik } from 'formik';
 import React from 'react';
+import { Form, Formik } from 'formik';
+import Button from './button';
 import LogoUploader from './logo-uploader';
 import InputField from './input-field';
 
@@ -53,6 +54,7 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
             />
           </div>
         </div>
+        <Button type="submit">Add company</Button>
       </Form>
     </Formik>
   );
