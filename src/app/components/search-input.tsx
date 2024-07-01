@@ -25,7 +25,7 @@ export default function SearchInput({
         <Image
           width={20}
           height={20}
-          src="/public/icons/magnifying-glass.svg"
+          src="/icons/magnifying-glass.svg"
           alt="search icon"
         />
       </button>
