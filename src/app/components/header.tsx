@@ -16,7 +16,7 @@ export default function Header({ children }: HeaderProps) {
         <Image
           width={44}
           height={44}
-          src="/public/images/avatar.png"
+          src="/images/avatar.png"
           alt="avatar"
         />
         <div>

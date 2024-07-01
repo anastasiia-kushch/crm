@@ -35,7 +35,6 @@ export default function CompanyRow({
         {category}
       </td>
       <td>
-        {/* ТУТ ПУТИ */}
         <a href={`/companies/${id}`}>{company}</a>
       </td>
       <td>
@@ -46,7 +45,7 @@ export default function CompanyRow({
           <Image
             width={16}
             height={16}
-            src={`/public/${promotion ? 'check' : 'x-mark'}.svg`}
+            src={`/icons/${promotion ? 'check' : 'x-mark'}.svg`}
             alt="promotion icon"
           />
           <span
