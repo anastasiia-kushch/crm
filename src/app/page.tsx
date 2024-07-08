@@ -1,10 +1,10 @@
-import AddCompanyButton from '@/app/components/add-company-button';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 export default function Home() {
   return (
     <main>
       <h1 className="text-xl">Home page</h1>
-      <AddCompanyButton />
+      <ReactQueryDevtools initialIsOpen={false} />
     </main>
   );
 }
