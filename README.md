@@ -8,11 +8,15 @@ Welcome to CRM for Vendors, a full-fledged CRM-like web application aimed at opt
 
 - TypeScript support: ensures code quality and type safety, enhancing development confidence.
 
-- Insights into vendor interactions: gain valuable insights into vendor interactions to facilitate informed decision-making.
-
 - Component-based architecture: promotes code reusability and maintainability, facilitating efficient development practices.
 
-- Next.js Features: utilized Next.js for efficient server-side rendering and static site generation, optimizing performance.
+- Client-side and server-side components: Integrating client-side and server-side components for optimized performance and user experience.
+
+- Static and dynamic rendering: Utilizing Next.js capabilities for both static and dynamic page rendering.
+
+- Error management configuration: Configuring error handling in the web application to ensure stable operation.
+
+- Working with React Query library: Integrating and working with the React Query library for state management and data fetching.
 
 ## Technologies used
 
