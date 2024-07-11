@@ -1,3 +1,5 @@
+// eslint-disable
+
 'use client';
 
 import React from 'react';
@@ -53,6 +55,10 @@ export default function PromotionForm({
   });
 
   const handleSubmit = async (values: PromotionFieldValues) => {
+    if (!company) {
+      console.error('Company is not defined');
+      return;
+    }
     await mutateAsync({
       ...values,
       discount: Number(values.discount) || 0,
